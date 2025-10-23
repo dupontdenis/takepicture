@@ -5,7 +5,7 @@ A simple web application that allows users to capture photos using their webcam 
 ## Features
 
 - 📸 Capture photos directly from your webcam
-- 💾 Store photos in a local database (NeDB)
+- 💾 Store photos in a local database (@seald-io/nedb)
 - 🖼️ View all captured photos in a gallery
 - 🏷️ Add custom names/moods to each photo
 - ⏰ Automatic timestamp tracking
@@ -13,7 +13,7 @@ A simple web application that allows users to capture photos using their webcam 
 ## Technologies Used
 
 - **Backend**: Node.js with Express.js
-- **Database**: NeDB (embedded NoSQL database)
+- **Database**: @seald-io/nedb (maintained fork of NeDB - embedded NoSQL database)
 - **Frontend**: Vanilla JavaScript, HTML5, CSS3
 - **WebRTC**: MediaDevices API for camera access
 
@@ -122,7 +122,7 @@ Save a new picture to the database.
 ## Dependencies
 
 - **express** (^4.18.2) - Fast, unopinionated web framework
-- **nedb** (^1.8.0) - Embedded persistent database
+- **@seald-io/nedb** (^4.0.4) - Maintained fork of NeDB, embedded persistent database
 
 ## Author
 
